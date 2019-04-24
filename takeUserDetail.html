@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+   table, th, td {
+  border: 1px solid black;
+  width: 300px;
+}
+    
+    </style>
+    <script src="./user.js"></script>
+
+</head>
+<body>
+    
+    <div>
+
+        <label> Username:
+            <input  type="text" name="username" id="name"/>
+        </label>
+        <br>
+        <br>
+        <label> Password:
+                <input  type="password" name="password" id="password"/>
+            </label>
+            <br>
+            <br>
+
+            <label> Email:
+                    <input  type="email" name="email" id="email" required/>
+                </label>
+
+                <br><br>
+                <button onclick="takeuseradd();">Submit</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table id="tablelist">
+        <tr>
+            <td>Username</td>
+            <td>Password</td>
+            <td>Email</td>
+        </tr>
+    </table>
+</body>
+</html>
